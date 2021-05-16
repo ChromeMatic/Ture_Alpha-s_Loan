@@ -3,7 +3,7 @@
 
     <template #brand>
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
-        <img src="../Img/TURE ALPHA.png">
+        <img src="../assets/Img/TURE ALPHA.png">
       </b-navbar-item>
     </template>
 

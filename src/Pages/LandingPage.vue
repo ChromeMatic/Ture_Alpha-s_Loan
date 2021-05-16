@@ -5,7 +5,7 @@
 
     <div class="section sec1">
      <div class="title txt">
-       <h1>Welcome To True Alpha's Loan</h1>
+       <h1>Welcome to True Alpha’s Pay Day loan</h1>
        <h3>Let us help you on your financial journey.</h3>
      </div>
     </div>
@@ -23,7 +23,7 @@
 
                 <div class="card">
                   <div class="card-image has-text-centered px-6">
-                    <img src="../Img/undraw_wallet_aym5.svg" alt="">
+                    <img src="../assets/Img/undraw_wallet_aym5.svg" alt="">
                   </div>
                   <div class="card-content">
                     <p class="title has-text-centered is-size-6">
@@ -38,7 +38,7 @@
 
                 <div class="card">
                   <div class="card-image has-text-centered px-6">
-                    <img src="../Img/Form.svg" alt="">
+                    <img src="../assets/Img/Form.svg" alt="">
                   </div>
                   <div class="card-content">
                     <p class="title has-text-centered is-size-6">
@@ -53,7 +53,7 @@
 
                 <div class="card">
                   <div class="card-image has-text-centered px-6">
-                    <img src="../Img/undraw_Reviewed_docs_re_9lmr.svg" alt="">
+                    <img src="../assets/Img/undraw_Reviewed_docs_re_9lmr.svg" alt="">
                   </div>
                   <div class="card-content">
                     <p class="title has-text-centered is-size-6">
@@ -68,7 +68,7 @@
 
                 <div class="card">
                   <div class="card-image has-text-centered px-6">
-                    <img src="../Img/approved.svg" alt="">
+                    <img src="../assets/Img/approved.svg" alt="">
                   </div>
                   <div class="card-content">
                     <p class="title has-text-centered is-size-6">
@@ -228,7 +228,7 @@ export default {
    background: linear-gradient(
        rgba(0,0,0,0.7),
        rgba(0,0,0,0.7) ) ,
-   url('../Img/rupixen-com-o9YWMdUoW8I-unsplash.jpg');
+   url('../assets/Img/rupixen-com-o9YWMdUoW8I-unsplash.jpg');
    background-size: cover;
  }
  .title h1{

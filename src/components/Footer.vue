@@ -13,7 +13,7 @@
           </div>
       </footer>
       <div class="footer-bottom">
-        <p>Copyright &copy 2021 True Alpha's Loan.</p>
+        <p>Copyright &copy 2021 True Alpha’s Pay Day loan.</p>
       </div>
     </div>
 </template>
