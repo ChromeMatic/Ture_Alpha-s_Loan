@@ -85,10 +85,11 @@
          </div>
     </section>
 
-    <section class="section sec2_box">
+    <!-- Apply -->
+    <section class="section sec2_box" id="apply">
       <div class="box">
 
-        <div class="container">
+        <div class="container" >
           <h2 class="title has-text-centered is-size-3">
             Apply today!
           </h2>
@@ -125,12 +126,13 @@
       </div>
     </section>
 
-    <section class="section sec3_box">
+    <!-- About Us -->
+    <section id="About_Us" class="section sec3_box">
 
       <div class="box">
         <div class="container">
 
-          <h2 id="about" class="title has-text-centered is-size-3">
+          <h2 class="title has-text-centered is-size-3">
             About Us
           </h2>
           <div class="columns is-desktop">
@@ -144,7 +146,7 @@
 
                 </header>
                 <div class="card-content">
-                  <div class="content">
+                  <div class="content" >
                     <p>
                       True Alpha’s is a small financial institution that grants small loans to individuals
                       that meets the requirements. True Alpha’s was founded by [insert name of person]
@@ -164,42 +166,52 @@
 
     </section>
 
-    <!--Footer --->
-    <footer class="footer footer-padding-1">
-      <div class="columns is-desktop F_p">
-        <div class="column">
-          <h3 class="title has-text-centered is-size-5">
-            Contact Us
-          </h3>
-        </div>
+    <!-- Contact Us -->
+    <section class="section sec3_box" id="Contact">
 
-        <div class="column">
-          <h3 class="title has-text-centered is-size-5">
-            Social Media Links
-          </h3>
-           <div class="container so_m">
-             <div class="columns is-mobile">
-               <div class="column">1</div>
-               <div class="column">2</div>
-               <div class="column">3</div>
+       <div class="box">
+         <div class="container">
+           <h2  class="title has-text-centered is-size-3">
+             Contact Us
+           </h2>
+           <div class="columns is-desktop">
+
+             <div class="column">
+               <div class="card">
+                 <header class="card-header">
+                   <p class="card-header-title">
+                     Contact Information
+                   </p>
+
+                 </header>
+                 <div class="card-content">
+                   <div class="content">
+                      <p>Number: 1(860)775-5231</p>
+                      <p>Email : TrueAlphaLoan@gmail.com</p>
+                   </div>
+                 </div>
+               </div>
              </div>
-           </div>
-        </div>
 
-      </div>
-      <div class="content has-text-centered">
-        <h4>Copyright 2021 Ture Alpha's Loan</h4>
-      </div>
-    </footer>
-    <!--Footer --->
+           </div>
+         </div>
+       </div>
+
+    </section>
+
+     <Footer/>
   </div>
 </template>
 
 <script>
 import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 export default {
   name: "LandingPage",
-  components:{NavBar}
+  components:{
+    NavBar,
+    Footer
+  }
 }
 </script>
 
@@ -230,13 +242,7 @@ export default {
  .sec2_box{background-color: #A1FFC6;}
  .sec3_box{background-color: #A1FFC6}
  .cont_ h1{margin-top: 7rem;}
- .F_p{
-   padding: 0.8rem 0 1rem 0;
- }
- .so_m{
-   justify-content: center;
-   align-items: center;
- }
+
  .btn{
    font-weight: bolder;
  }

@@ -8,19 +8,19 @@
     </template>
 
     <template #start>
-      <b-navbar-item href="#">
+      <b-navbar-item href="/">
         Home
       </b-navbar-item>
 
-      <b-navbar-item href="#about">
+      <b-navbar-item href="#About_Us">
         About Us
       </b-navbar-item>
 
       <b-navbar-dropdown label="Services">
-        <b-navbar-item href="#">
+        <b-navbar-item href="#apply">
           Apply for loan
         </b-navbar-item>
-        <b-navbar-item href="#">
+        <b-navbar-item href="#Contact">
           Contact Us
         </b-navbar-item>
       </b-navbar-dropdown>
