@@ -5,7 +5,7 @@
 
     <div class="section sec1">
      <div class="title txt">
-       <h1>Welcome To Ture Alpha's Loan</h1>
+       <h1>Welcome To True Alpha's Loan</h1>
        <h3>Let us help you on your financial journey.</h3>
      </div>
     </div>

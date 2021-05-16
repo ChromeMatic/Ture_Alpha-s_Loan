@@ -67,6 +67,10 @@ export default {
      transition: color 0.4s ease;
    }
 
+   .social_Links a:hover i{
+     color: #2ecc71;
+   }
+
    .footer-bottom{
      background-color: black;
      width: 100vw;
@@ -78,9 +82,4 @@ export default {
      color: #FFFFFF;
    }
 
-   @media only screen and (max-width: 1024px){
-     .social_Links a:hover i{
-       color: #2ecc71;
-     }
-   }
 </style>
