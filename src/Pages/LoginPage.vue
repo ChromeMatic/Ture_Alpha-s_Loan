@@ -1,5 +1,6 @@
 <template>
   <div class="loginBox">
+    <div></div>
   </div>
 </template>
 
