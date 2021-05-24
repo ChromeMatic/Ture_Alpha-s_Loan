@@ -1,12 +1,24 @@
 <template>
-  <div>
-    <h1>login Page</h1>
+  <div class="loginBox">
+
   </div>
 </template>
 
 <script>
+import NavBar from "@/components/NavBar";
 export default {
-  name: "LoginPage"
+  name: "LoginPage",
+  components:{NavBar},
+  data(){
+    return{
+      user:{
+        username:"",
+        password:""
+      }
+    }
+  },
+  computed:{},
+  methods:{}
 }
 </script>
 
