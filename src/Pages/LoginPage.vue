@@ -2,7 +2,9 @@
   <div>
     <NavBar/>
     <section>
-      <div class="imgBx"></div>
+      <div class="imgBx">
+         <h1>Welcome Back</h1>
+      </div>
 
       <div class="contentBx">
         <div class="formBx">
@@ -74,18 +76,25 @@ export default {
    height: 100vh;
    display: flex;
    color: #2c3e50;
+   background:linear-gradient(-45deg,#fafafa,#ecf0f1);
  }
  section .imgBx{
    position: relative;
    width: 50%;
    height: 100%;
    background: linear-gradient(
-       rgba(0,0,0,0.5),
-       rgba(0,0,0,0.5) ) ,
+       rgba(0,0,0,0.6),
+       rgba(0,0,0,0.6) ) ,
    url('../assets/Img/Login-unsplash.jpg');
    background-size: cover;
  }
-
+ .imgBx h1{
+   margin-top: 13.5rem;
+   font-weight: bold;
+   font-size: 6.5rem;
+   color: #FFFFFF;
+   text-align: center;
+ }
  section .contentBx{
    display: flex;
    justify-content: center;
@@ -147,6 +156,10 @@ export default {
        height: 100%;
        width: 100%;
      }
+
+   .imgBx h1{
+     display: none;
+   }
 
    section .contentBx .formBx h1{
      color:#2ecc71;
