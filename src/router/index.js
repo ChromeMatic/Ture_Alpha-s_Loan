@@ -23,6 +23,13 @@ const routes = [
     component: function (){
       return import('../views/SignInView');
     }
+  },
+  {
+    path: '/Dashboard',
+    name: 'Dashboard',
+    component: function (){
+      return import('../views/DashboardView');
+    }
   }
 ]
 
